@@ -1,0 +1,18 @@
+{
+  "name": "mongo_todo_refactor",
+  "main": "index.js",
+  "version": "0.0.0",
+  "homepage": "https://github.com/DelmerGA/mongo_todo_refactor",
+  "authors": [
+    "Delmer Reed <delmer814@yahoo.com>"
+  ],
+  "description": "learning todos",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
