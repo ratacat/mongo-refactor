@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Todo App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script type="text/javascript" src="/javascripts/app.js"></script>
+
+    <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/stylesheets/app.css">
+  </head>
+  <body>
+    <h1> Todo App</h1>
+    <div class="container">
+      <form id="newTodo">
+        <div class="form-group">
+          <input type="text" name="todo[title]" class="form-control" placeholder="Title">
+        </div>
+        <div class="form-group">
+          <textarea name="todo[description]" class="form-control" placeholder="Description"></textarea>
+        </div>
+        <button class="btn btn-primary">Add Todo</button>
+      </form>
+      <div id="todosCon">
+      </div>
+    </div>
+  </body>
+</html>
