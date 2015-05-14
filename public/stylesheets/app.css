@@ -9,7 +9,7 @@ body {
   background-color: rgba(0,0,0,.1);
 }
 
-.container {
+.con-body {
   background-color: rgba(255, 255, 255, 1);
   padding: 20px;
   padding-bottom: 200px;;
@@ -28,7 +28,7 @@ body {
 }
 
 .jumbotron h1 {
-  background-color: rgba(0,0,0,.2);
+  background-color: rgba(0,0,0,.1);
   color: white;
   text-align: center;
   padding: 50px;
@@ -37,6 +37,7 @@ body {
 .cust-form {
   background-color: rgba(0, 0, 0, .1);
   padding: 10%;
+  width: 100%;
 }
 
 .cust-form .btn-primary {
@@ -53,3 +54,28 @@ body {
   margin-bottom: 5%;
 }
 
+#todosCon {
+  margin-top: 50px;
+}
+
+.todoCon {
+  margin-top: 10px;
+}
+
+.todo {
+  padding: 5%;
+  background-color: rgba(0, 0, 0, .1);
+}
+.todo .todo-descr, .todo .todo-title {
+  margin-top: 5%;
+  background-color: white;
+  padding: 5px 10px;
+}
+
+.todo .btn-group {
+  margin-top: 5%;
+}
+
+.todo .btn-group * {
+  margin-right: 10px;
+}

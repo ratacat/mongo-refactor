@@ -16,14 +16,16 @@
   <body>
 
     <div class="navbar navbar-default">
-      <div class="brand-con">
-        <div class="navbar-brand">
-          TodoApp
+      <div class="container">
+        <div class="brand-con">
+          <div class="navbar-brand">
+            TodoApp
+          </div>
         </div>
       </div>
     </div> 
 
-    <div class="container">
+    <div class="container con-body">
 
       <div class="jumbotron">
         <h1> Todo App</h1>
@@ -44,32 +46,33 @@
 
         </div>
       </div>
-
-      <div id="todosCon">
-      </div>
+      
+        <div id="todosCon" class="">
+        </div>
 
     </div>
 
     <script type="text/template" id="todoTemp">
-      <div class="todo">
+      <div class="todoCon row">
+        <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
 
-          <div class="row todo-title">
-            <div class="col-xs-12">
+          <div class="todo">
+
+            <div class="todo-title">
               <%= title %>
             </div>
-          </div>
 
-          <div class="row todo-descr">
-            <div class="col-xs-12">
+            <div class="todo-descr">
               <%= description %>
             </div>
-          </div>
 
-          <div class="btn-group todo-controls">
-            <input type="checkbox" class="completed" value="<%= completed %>">
-            <button class="btn btn-danger">DELETE</button>
-          </div>
+            <div class="btn-group todo-controls">
+              <input type="checkbox" class="completed" value="<%= completed %>">
+              <button class="delete btn btn-danger">DELETE</button>
+            </div>
 
+          </div>
+        </div>
       </div>
     </script>
 

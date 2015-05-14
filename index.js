@@ -15,7 +15,8 @@ var todos = [
               {
                 index: 0,
                 title: "Do Laundry",
-                description: "Two Loads"
+                description: "Two Loads",
+                completed: false
               }
             ];
 
@@ -24,6 +25,23 @@ app.get("/", function (req, res) {
   res.sendFile(homePath);
 });
 
+
+app.post("/todos", function (req, res) {
+  var todo = req.body.todo;
+  todo.index = todos.length;
+  todo.completed = false;
+  todos.push(todo);
+  res.send(todo);
+});
+
+app.get("/todos", function (req, res) {
+  res.send(todos);
+});
+
+app.delete("/todos/:index", function (req, res) {
+  todos.splice(req.params.index);
+  res.send(200);
+});
 
 app.listen(3000, function () {
   console.log("WORKING");
