@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon"
+    "start": "nodemon",
+    "setup": "npm install && bower install"
   },
   "repository": {
     "type": "git",
