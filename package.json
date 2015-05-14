@@ -6,7 +6,7 @@
   "scripts": {
     "start": "nodemon",
     "setup": "npm install && bower install",
-    "refactor": "git add . -A && git commit -m 'changes' && git checkout refactor"
+    "refactor": "git add . -A && git commit -m 'changes' && git checkout refactor && npm run setup"
   },
   "repository": {
     "type": "git",
