@@ -1,0 +1,53 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: rgba(0,0,0, .1);
+}
+
+.navbar-brand {
+  border-right: solid 1px black;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 1);
+  padding: 20px;
+  padding-bottom: 200px;;
+}
+
+
+.container .jumbotron {
+  border-radius: 0px;
+  background-image: url("http://www.samsung.com/latin_en/common/next/pdp-wow-assets/wowqa/WA16J6710LS_AP/benefit/1280/04_magic_filter_02.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.navbar-inverse {
+  border-radius: 0px;
+}
+
+.jumbotron h1 {
+  background-color: rgba(0,0,0,.2);
+  color: white;
+  text-align: center;
+  padding: 50px;
+}
+
+.cust-form {
+  background-color: rgba(0, 0, 0, .1);
+  padding: 10%;
+}
+
+.cust-form .btn-primary {
+  margin-top: 7%;
+  width: 100%;
+  padding: 10px;
+  font-size: x-large;
+}
+
+.cust-form input, .cust-form textarea {
+  padding: 20px;
+  font-size: large;
+  border-radius: 0px;
+  margin-bottom: 5%;
+}
+
