@@ -21,6 +21,7 @@
   "homepage": "https://github.com/DelmerGA/mongo_todo_refactor",
   "dependencies": {
     "body-parser": "^1.12.4",
+    "bower": "^1.4.1",
     "express": "^4.12.3",
     "nodemon": "^1.3.7"
   }
