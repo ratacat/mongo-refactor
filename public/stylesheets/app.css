@@ -3,8 +3,10 @@ body {
   background-color: rgba(0,0,0, .1);
 }
 
-.navbar-brand {
+.navbar-default .navbar-brand {
   border-right: solid 1px black;
+  color: white;
+  background-color: rgba(0,0,0,.1);
 }
 
 .container {
