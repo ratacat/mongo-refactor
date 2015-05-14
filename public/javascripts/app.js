@@ -6,9 +6,10 @@ $(function () {
 
   var todoTemp = _.template($("#todoTemp").html())
   
+  //after page has loaded, grab all todos
   $.get("/todos").
       done(function (todos) {
-          
+          //each todo, template and append
         _(todos).each(function (todo) {
             var $todo = $(todoTemp(todo))
             $todo.data("index", todo.index);
