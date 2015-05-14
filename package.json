@@ -7,7 +7,7 @@
     "start": "nodemon",
     "setup": "npm install && bower install",
     "refactor": "git add . -A && git commit -m 'changes' && git checkout refactor && npm run setup && npm start",
-    "master": "git ad . -A && git commit -m 'changes' && git checkout master && npm run setup && npm start"
+    "master": "git add . -A && git commit -m 'changes' && git checkout master && npm run setup && npm start"
   },
   "repository": {
     "type": "git",
